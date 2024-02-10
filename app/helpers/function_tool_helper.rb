@@ -10,10 +10,7 @@ module FunctionToolHelper
 
     if inspiration
       begin
-        # documents = SimpleDirectoryReader.new.load_data(directory_path: File.expand_path('../data', __dir__))
-        # index = VectorStoreIndex.from_documents(documents)
-        # query_engine = index.as_query_engine
-        # response = query_engine.query(query: inspiration)
+        # Handle RAG
 
         response = {
           'response' => 'This is a placeholder response for the getCharacterInspiration function. It should be replaced with the actual implementation.'
