@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   post '/api/inbound', to: 'inbound#create'
+  post '/api/webhook', to: 'webhook#create'
+
   post '/api/custom-llm/openai-sse/chat/completions', to: 'custom_llm#create'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
